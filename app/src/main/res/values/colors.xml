@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="redReject">#CC0000</color>
+    <color name="blue">#3498DB</color>
+    <color name="lightBlue">#5bc0de</color>
+    <color name="dangerRed">#d9534f</color>
+    <color name="ceremicRed">#964050</color>
+    <color name="green">#00CC00</color>
+    <color name="organge">#ef9c44</color>
+    <color name="hotpink">#FF0066</color>
+    <color name="offYellow">#FFA000 </color>
+    <color name="brown">#795548</color>
+    <color name="darkRed">#C2185B</color>
+    <color name="submitGreen">#66cd32</color>
+    <color name="backgroundLight">#F4F0F0</color>
+    <color name="grey">#778899</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="viewBody">#F0F0F0</color>
+</resources>

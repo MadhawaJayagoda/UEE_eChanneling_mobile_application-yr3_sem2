@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="230dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/round_button_submit"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/accaept_and_pay"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="100dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_button_cancel"
+        android:fontFamily="sans-serif-black"
+        android:text="Cancel"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="109dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/android_back_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="338dp"
+        android:layout_height="432dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/backgroundLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="338dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_view_header"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="190dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Channel Details"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="105dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        android:text="Doctor"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="105dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="Specialization"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="105dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="Arrival Time"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="105dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="Date"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="105dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="Hospital"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="105dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="Patient Name"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="105dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="Contact No."
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/doctor_name"
+        android:layout_width="181dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+    <TextView
+        android:id="@+id/doctor_specialization"
+        android:layout_width="181dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_name" />
+
+    <TextView
+        android:id="@+id/appointment_time"
+        android:layout_width="181dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_specialization" />
+
+    <TextView
+        android:id="@+id/appointment_date"
+        android:layout_width="181dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/appointment_time" />
+
+    <TextView
+        android:id="@+id/hospital"
+        android:layout_width="187dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="14dp"
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/appointment_date" />
+
+    <TextView
+        android:id="@+id/patient_name"
+        android:layout_width="181dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/hospital" />
+
+    <TextView
+        android:id="@+id/patient_contact_number"
+        android:layout_width="181dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/patient_name" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="338dp"
+        android:layout_height="40dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="97dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Total fee :"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view5" />
+
+    <TextView
+        android:id="@+id/total_charge"
+        android:layout_width="127dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view5" />
+
+</android.support.constraint.ConstraintLayout>

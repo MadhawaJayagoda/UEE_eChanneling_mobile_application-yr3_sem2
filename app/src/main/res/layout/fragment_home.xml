@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:src="@drawable/echannelling_logo"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="35dp"
+    android:layout_marginBottom="10dp"
+    />
+
+<Button
+    android:id="@+id/btn_add_doctor_appointment"
+    android:layout_width="182dp"
+    android:layout_height="115dp"
+    android:layout_alignBottom="@+id/imageView"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="14dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginEnd="215dp"
+    android:layout_marginBottom="-203dp"
+    android:background="@drawable/round_button_add_doctor_appointment"
+    android:fontFamily="sans-serif-black"
+    android:text="Add Doctor Appointment"
+    android:textAlignment="center"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    android:textStyle="normal" />
+
+<Button
+    android:id="@+id/btn_view_appointments"
+    android:layout_width="182dp"
+    android:layout_height="115dp"
+    android:layout_alignBottom="@+id/imageView"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="14dp"
+    android:layout_marginEnd="215dp"
+    android:layout_marginBottom="-331dp"
+    android:background="@drawable/round_button_view_appointments"
+    android:fontFamily="sans-serif-black"
+    android:text="View Appointments"
+    android:textColor="@android:color/white"
+    android:textSize="16sp" />
+
+<Button
+    android:id="@+id/btn_channel_history"
+    android:layout_width="182dp"
+    android:layout_height="115dp"
+    android:layout_alignBottom="@+id/imageView"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="14dp"
+    android:layout_marginEnd="215dp"
+    android:layout_marginBottom="-460dp"
+    android:background="@drawable/round_button_channel_history"
+    android:fontFamily="sans-serif-black"
+    android:text="Channel History"
+    android:textColor="@android:color/white"
+    android:textSize="16sp" />
+
+<Button
+    android:id="@+id/btn_drug_delivery"
+    android:layout_width="182dp"
+    android:layout_height="115dp"
+    android:layout_alignBottom="@+id/imageView"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="-203dp"
+    android:background="@drawable/round_button_drug_delivery"
+    android:fontFamily="sans-serif-black"
+    android:text="Medical / Lab"
+    android:textColor="@android:color/white"
+    android:textSize="16sp" />
+
+<Button
+    android:id="@+id/btn_online_doctor_applintment"
+    android:layout_width="182dp"
+    android:layout_height="115dp"
+    android:layout_alignBottom="@+id/imageView"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="14dp"
+    android:layout_marginBottom="-329dp"
+    android:background="@drawable/round_button_talk_to_doctor"
+    android:fontFamily="sans-serif-black"
+    android:text="Talk to Doctor"
+    android:textColor="@android:color/white"
+    android:textSize="16sp" />
+
+<Button
+    android:id="@+id/btn_doctor_registration"
+    android:layout_width="182dp"
+    android:layout_height="115dp"
+    android:layout_alignBottom="@+id/imageView"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="14dp"
+    android:layout_marginBottom="-458dp"
+    android:background="@drawable/round_button_doctor_registration"
+    android:fontFamily="sans-serif-black"
+    android:text="Doctor Registration"
+    android:textColor="@android:color/white"
+    android:textSize="15sp" />
+</RelativeLayout>

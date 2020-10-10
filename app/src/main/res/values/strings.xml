@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">eChanneling</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_ambulance">Ambulance</string>
+    <string name="title_profile">Profile</string>
+    <string name="accaept_and_pay"><![CDATA[Proceed & Pay]]></string>
+
+    <string-array name="channelingType">
+        <item> - Select Channeling Type - </item>
+        <item>Private Hospital</item>
+        <item>Ayurvedic Hospital</item>
+    </string-array>
+
+    <string-array name="channelingCenter">
+        <item> - Select Channeling Center - </item>
+        <item>Asiri Central Hospital - Kandy</item>
+        <item>Durdans Hospital - Colombo 07</item>
+        <item>KPH Channeling Center - Kandy</item>
+        <item>Lanka Hospitals - Colombo</item>
+        <item>Nawaloka Hospitals - Colombo</item>
+        <item>Suwasewana Hospital - Kandy</item>
+    </string-array>
+
+    <string-array name="doctor_names">
+        <item>Dr. Chandani Udagedara</item>
+        <item>Dr. Saman Gunasekara</item>
+        <item>Dr. Renuka Athapattu</item>
+    </string-array>
+
+    <string-array name="doctor_titles">
+        <item>MBBS</item>
+        <item>MBBS MB Chb</item>
+        <item>MBBS MA MCS MDS MISM</item>
+    </string-array>
+
+    <string-array name="doctor_hospital">
+        <item>Colombo General Hospital</item>
+        <item>Kalubowila General Hospital</item>
+        <item>Peradeniya General Hospital </item>
+    </string-array>
+
+    <string-array name="doctor_avatar_url">
+        <item>avatar_lady_doctor</item>
+        <item>avatar_male_doctor</item>
+        <item>doctor_female_avatar</item>
+    </string-array>
+
+    <string-array name="channel_date">
+        <item>2020-08-24</item>
+        <item>2020-08-24</item>
+        <item>2020-08-29</item>
+    </string-array>
+
+    <string-array name="channel_time">
+        <item>11.30 A.M.</item>
+        <item>03.30 P.M.</item>
+        <item>03.30 P.M.</item>
+    </string-array>
+
+    <string-array name="patients_number">
+        <item>Active Patients : 7</item>
+        <item>Active Patients : 11</item>
+        <item>Active Patients : 38</item>
+    </string-array>
+
+    <string-array name="patient_titles">
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Miss.</item>
+        <item>Mast.</item>
+        <item>Rev.</item>
+        <item>Dr.</item>
+        <item>Baby.</item>
+    </string-array>
+
+
+
+
+</resources>
