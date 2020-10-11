@@ -25,10 +25,10 @@ Two dependancies are required to run the project properly.<br>
 
 ### Sample UI interfaces of the final working mobile application
 ---
-<img src="screenshots_of_the_working_application/Home interface.PNG" width="200px">  &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/Add appointment - Select channeling type.PNG" width="200px"> &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/Add appointment - Select Doctor Specialization.PNG" width="200px"> &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/Add appointment - Select date and time.PNG" width="200px">  
+<img src="screenshots_of_the_working_application/Home interface.PNG" width="175px">  &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/Add appointment - Select channeling type.PNG" width="175px"> &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/Add appointment - Select Doctor Specialization.PNG" width="175px"> &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/Add appointment - Select date and time.PNG" width="175px">  
 
 <br>
 
 ### Custom-made Alert Dialog pop-ups
 ---
-<img src="screenshots_of_the_working_application/Invalid input error.PNG" width="200px">  &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/Add appointment - successfully added appointment.PNG" width="200px"> &nbsp;&nbsp;&nbsp;  <img src="screenshots_of_the_working_application/exit alert custom dialog.PNG" width="200px"> &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/invalid input dialog messsage.PNG" width="200px">
+<img src="screenshots_of_the_working_application/Invalid input error.PNG" width="175px">  &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/Add appointment - successfully added appointment.PNG" width="175px"> &nbsp;&nbsp;&nbsp;  <img src="screenshots_of_the_working_application/exit alert custom dialog.PNG" width="175px"> &nbsp;&nbsp;&nbsp; <img src="screenshots_of_the_working_application/invalid input dialog messsage.PNG" width="175px">
