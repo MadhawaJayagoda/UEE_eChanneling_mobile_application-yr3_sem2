@@ -14,7 +14,7 @@ Also, we try to balance the white spaces in the interface and the organization o
 
 For the implementation, technology used is Java as the programming language and Android Studio as the IDE.
 
-## important
+## important &nbsp; :warning:
 Two dependancies are required to run the project properly.<br>
 **Add these two Dependencies in the build.gradle file of the project:**
 
