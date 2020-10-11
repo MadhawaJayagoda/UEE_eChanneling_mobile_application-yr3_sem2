@@ -3,7 +3,7 @@ This is my individual part of the eChanneling mobile application, UI / UX improv
 
 So we have choose eChanneling mobile application, where I implemented:
 
-* Add an appointment with a Doctor by selecting the Doctor of your choice and by selecting a preferred convinient Channeling Center to you.
+* Add an appointment with a Doctor by selecting the Doctor of your choice and by selecting a preferred convenient Channeling Center to you.
 * Online payment process for the added appointment upto payment gateway. 
 * View added appointments, upcoming appointments and the appointment history of the patient.
 * Custom-made Lists for displaying data and interface fragments.
